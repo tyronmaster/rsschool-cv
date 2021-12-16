@@ -12,7 +12,7 @@
 
 &nbsp;
 
-## :movie_camera:     About
+## 🎥     About
    Well, for the last 15 years I've made an advertising and promotion companies for the biggest furiture (and other items for home) retailer in Belarus. During this period company grows from 5 own stores to retail network with more than 250 stores and became a leader of non-food retailers. Plan of sales increases monthly and sellers performed it with my department help.\
    In my work I'll always try to stay correct and respectfully goes with colleagues, explain difficult moments to employees and try to find solving together.\
    For now I'd like to increase my knowledges in the new sphere of my interests - programming. I'd like to study JS to use it in real projects. Seems to me, it helps to make something usefull for the people. And it'll be interesting for me to combine my "advertising" knowledges with web-technologies. \
@@ -20,7 +20,7 @@
 
 &nbsp;
 
-## :toolbox:     Skills
+## 🧰     Skills
 
 * Adobe: Photoshop, Illustrator, InDesign, After Effect
 * Corel Draw
@@ -31,7 +31,7 @@
 
 &nbsp;
 
-## :godmode:     Code Samples
+## 🎨     Code Samples
 
 [get3dviz.com](https://get3dviz.com/)
 
@@ -48,7 +48,7 @@ namespace HelloWorld
 ```
 &nbsp;
 
-## :moneybag:     Job
+## 💰     Job
 
   04/2005 - 08/2006 "Laguna" furniture factory - advertising specialist, designer\
   09/2006 - 09/2013 "Laguna" furniture factory - head of advertising department\
@@ -62,7 +62,7 @@ namespace HelloWorld
 &nbsp;
 
 
-## :books:     Education
+## 📚     Education
 
 * 2000-2004 BSTU - _mechanical engineering faculty_
 * 2004-2005 BarSU - _economics & management_
@@ -72,7 +72,7 @@ namespace HelloWorld
 
 &nbsp;
 
-## :speaking_head:     Languages
+## 🗣️     Languages
 * Russian, Belarusian - native
 * English - B1
 * Polish - B1
