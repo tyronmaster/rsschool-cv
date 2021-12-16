@@ -6,7 +6,7 @@
 
 ![email](assets/img/mail-48.png) [degonski.art@gmail.com](mailto:degonski.art@gmail.com)\
 ![github](assets/img/github-48.png) [tyronmaster](https://github.com/tyronmaster)\
-![phone](assets/img/telegram-48.png) [+375299499201](tel:+375299499201)
+![phone](assets/img/telegram-48.png)   [+375299499201](tel:+375299499201)
 
 
 &nbsp;
@@ -19,7 +19,7 @@
 
 &nbsp;
 
-## :toolbox: Skills
+## :toolbox:   Skills
 
 * Adobe: Photoshop, Illustrator, InDesign, After Effect
 * Corel Draw
@@ -30,7 +30,7 @@
 
 &nbsp;
 
-## :godmode: Code Samples
+## :godmode:   Code Samples
 
 [get3dviz.com](https://get3dviz.com/)
 
@@ -47,7 +47,7 @@ namespace HelloWorld
 ```
 &nbsp;
 
-## :moneybag: Job
+## :moneybag:  Job
 
   04/2005 - 08/2006 "Laguna" furniture factory - advertising specialist, designer\
   09/2006 - 09/2013 "Laguna" furniture factory - head of advertising department\
@@ -61,7 +61,7 @@ namespace HelloWorld
 &nbsp;
 
 
-## :books: Education
+## :books:  Education
 
 * 2000-2004 BSTU - _mechanical engineering faculty_
 * 2004-2005 BarSU - _economics & management_
@@ -71,7 +71,7 @@ namespace HelloWorld
 
 &nbsp;
 
-## :speaking_head: Languages
+## :speaking_head:   Languages
 * Russian, Belarusian - native
 * English - B1
 * Polish - B1
