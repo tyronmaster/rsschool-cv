@@ -4,10 +4,10 @@
 
 ## Contacts
 
-![email](assets/img/mail-48.png) [degonski.art@gmail.com](mailto:degonski.art@gmail.com)
-![phone](assets/img/github-48.png) [tyronmaster](https://github.com/tyronmaster)
-![github](assets/img/github-48.png) [tyronmaster](https://github.com/tyronmaster)
-![phone](assets/img/telegram-48.png) [+375299499201](tel:+375299499201)
+![email](assets/img/mail-48.png) [degonski.art@gmail.com](mailto:degonski.art@gmail.com)\
+![phone](assets/img/github-48.png) [tyronmaster](https://github.com/tyronmaster)\
+![github](assets/img/github-48.png) [tyronmaster](https://github.com/tyronmaster)\
+![phone](assets/img/telegram-48.png) [+375299499201](tel:+375299499201)\
 
 
 &nbsp;
