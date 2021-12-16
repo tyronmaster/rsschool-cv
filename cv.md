@@ -3,7 +3,7 @@
 
 &nbsp;
 
-## :satellite: Contacts
+## 📡 Contacts
 
 ![email](assets/img/mail-48.png)     [degonski.art@gmail.com](mailto:degonski.art@gmail.com)\
 ![github](assets/img/github-48.png)     [tyronmaster](https://github.com/tyronmaster)\
