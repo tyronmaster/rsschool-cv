@@ -57,7 +57,7 @@ namespace HelloWorld
   2014 - 2017 - freelancer projects - design for Moscow pawnshops\
   2015-2016 - freelancer for https://www.youtube.com/c/AmiMebelby/videos channel\
   2015 - 2019 - freelancer projects - small web-master projects like HTML-pages layout, correcting CSS, .htaccess and the same\
-  2016 - freelancer project - application for printing prices [add actual link](https://github.com/tyronmaster/rsschool-cv/edit/gh-pages/cv.md)
+  2016 - freelancer project - application for printing prices
 
 &nbsp;
 
