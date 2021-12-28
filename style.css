@@ -29,11 +29,11 @@ a {
    transition: color 1s ease;
 }
 a:hover {
-   color: #96d2d2;
+   color: #4dc9c9;
    transition: color 0.5s ease;
 }
 a:active {
-   color: #96d2d2;
+   color: #4dc9c9;
 }
 ul li {
    list-style: none;
@@ -47,20 +47,20 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: "Forum", serif;
-   font-weight: 400;
-   color: #9d8665;
+   font-family: "Vollkorn", serif;
+   font-weight: 500;
+   color: #e5e5e5;
 }
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Montserrat", sans-serif;
    color: #e5e5e5;
-   font-size: 22px;
+   font-size: 14px;
    font-weight: 300;
-   line-height: 38.5px;
+   line-height: 20px;
    background: #38383a;
 }
 .wrapper {
-   min-height: 100%;
+   min-height: 100vh;
    overflow: hidden;
 }
 .container {
@@ -68,3 +68,124 @@ body {
    margin: 0 auto;
    padding: 0 15px;
 }
+
+/* HEADER BLOCK STARTS*/
+.header {
+   min-height: 10vh;
+}
+.navigation {
+}
+.nav__list {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.nav__item {
+   margin: 15px;
+}
+.nav__link {
+}
+.nav__icon {
+   cursor: pointer;
+}
+/* HEADER BLOCK ENDS*/
+
+.main {
+   min-height: 80vh;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contacts {
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: flex-end;
+}
+.contacts__silhouette {
+   width: 300px;
+   height: 349px;
+}
+.contacts__title {
+   font-size: 30px;
+   line-height: 34px;
+   text-align: center;
+   text-transform: uppercase;
+}
+.contacts__text {
+   font-family: "Montserrat";
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 24px;
+   padding: 5px 0;
+}
+
+/* FOOTER BLOCK STARTS*/
+.footer {
+   min-height: 10vh;
+   display: flex;
+   align-items: center;
+}
+.footer__list {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.footer__item {
+   margin: 15px;
+}
+.footer__link {
+   position: relative;
+   padding-left: 35px;
+}
+.email::before {
+   content: "";
+   position: absolute;
+   top: -5px;
+   left: 0;
+   width: 25px;
+   height: 25px;
+   background: url(/assets/img/email.svg) no-repeat center center;
+}
+.github::before {
+   content: "";
+   position: absolute;
+   top: -5px;
+   left: 0;
+   width: 25px;
+   height: 25px;
+   background: url(/assets/img/github.svg) no-repeat center center;
+}
+.phone::before {
+   content: "";
+   position: absolute;
+   top: -5px;
+   left: 0;
+   width: 25px;
+   height: 25px;
+   background: url(/assets/img/phone.svg) no-repeat center center;
+}
+.web::before {
+   content: "";
+   position: absolute;
+   top: -5px;
+   left: 0;
+   width: 25px;
+   height: 25px;
+   background: url(/assets/img/web.svg) no-repeat center center;
+}
+.rsschool {
+   padding-left: 80px;
+}
+.rsschool::before {
+   content: "";
+   position: absolute;
+   top: -5px;
+   left: 0;
+   width: 70px;
+   height: 25px;
+   background: url(/assets/img/rs_school.svg) no-repeat center center;
+}
+/* FOOTER BLOCK ENDS*/
