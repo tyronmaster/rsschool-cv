@@ -95,8 +95,6 @@ body {
 .header {
    min-height: 10vh;
 }
-.navigation {
-}
 .nav__list {
    display: flex;
    justify-content: center;
@@ -200,9 +198,6 @@ body {
    padding-left: 50px;
    text-align: left;
    max-width: 600px;
-}
-
-.about__sign {
 }
 /* about ends*/
 
@@ -426,6 +421,79 @@ pre {
 }
 /* languages ends*/
 
+/* education starts +++++++++++++++++++++*/
+.education {
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+   flex-wrap: wrap;
+
+   display: none;
+}
+.education__photo {
+   width: 350px;
+}
+.education__content {
+   padding-left: 50px;
+   text-align: left;
+   max-width: 600px;
+}
+.education__item {
+   margin-bottom: 15px;
+}
+.education__name {
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+}
+/* education ends*/
+
+/* job starts +++++++++++++++++++++*/
+.job {
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+   flex-wrap: wrap;
+
+   /*display: none;*/
+}
+.job__photo {
+   width: 350px;
+}
+.job__content {
+   padding-left: 50px;
+   text-align: left;
+   max-width: 600px;
+}
+.job__item {
+   margin-bottom: 15px;
+}
+.job__name {
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+}
+.project__list {
+   padding-left: 10px;
+   margin: 5px;
+}
+.project__item {
+   position: relative;
+}
+.project__item::before {
+   content: "";
+   position: absolute;
+   left: -10px;
+   top: 9px;
+   border: 1px solid #e5e5e5;
+   border-radius: 50%;
+}
+/* job ends*/
+
 /* MAIN BLOCK ENDS*/
 
 /* FOOTER BLOCK STARTS ====================================*/
@@ -472,12 +540,14 @@ pre {
 /* MEDIA ===================================================*/
 
 @media only screen and (max-width: 575px) {
-   .about__photo {
+   .about__photo,
+   .education__photo {
       display: none;
    }
 }
 @media only screen and (max-width: 1000px) {
-   .about__photo {
+   .about__photo,
+   .education__photo {
       width: 200px;
    }
 }
