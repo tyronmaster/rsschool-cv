@@ -21,6 +21,7 @@ for (let i = 0; i < buttonsList.length; i++) {
 function showSlide(number) {
    for (let key in linkList) {
       console.log(key);
+      console.log(key-1);
       sectionsList[key - 1].style.display = "none";
       if (number === key) {
          sectionsList[key - 1].style.display = "flex";
@@ -28,5 +29,5 @@ function showSlide(number) {
    }
 }
 
-/*console.log(buttonsList[0].getAttribute("value"));*/
+console.log(buttonsList[2].getAttribute("value"));
 console.log(sectionsList);
