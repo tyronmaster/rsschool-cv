@@ -15,8 +15,9 @@ const buttonsList = document.getElementsByClassName("nav__item");
 
 for (let i = 0; i < buttonsList.length; i++) {
    buttonsList[i].addEventListener("click", () => {
-      sectionNum = buttonsList[i].getAttribute("accesskey");
+      sectionNum = Number(buttonsList[i].getAttribute("accesskey"));
       showSlide(sectionNum);
+      // console.log(buttonsList[i].getAttribute("accesskey"));
    }, false);
 }
 
