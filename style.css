@@ -128,7 +128,7 @@ body {
    fill: #3ccccb;
 }
 
-/* ACTIVE CLASS
+/* ACTIVE CLASS */
 .active span {
    visibility: visible;
    opacity: 1;
@@ -137,7 +137,7 @@ body {
 .active svg path {
    fill: #3ccccb;
 }
-*/
+
 .nav__icon {
    cursor: pointer;
 }
@@ -159,7 +159,7 @@ body {
    justify-content: end;
    align-items: flex-end;
 
-   display: none;
+   /*display: none;*/
 }
 .contacts__silhouette {
    width: 300px;
@@ -458,7 +458,7 @@ pre {
    align-items: center;
    flex-wrap: wrap;
 
-   /*display: none;*/
+   display: none;
 }
 .job__photo {
    width: 350px;

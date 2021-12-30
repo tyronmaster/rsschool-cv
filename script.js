@@ -8,26 +8,39 @@ const linkList = {
    7: "job"
 }
 
+let sectionNum = 1;
+
 const sectionsList = document.getElementsByClassName("slide");
 const buttonsList = document.getElementsByClassName("nav__item");
+
 for (let i = 0; i < buttonsList.length; i++) {
    buttonsList[i].addEventListener("click", () => {
-      var sectionNum = buttonsList[i].getAttribute("value");
+      sectionNum = buttonsList[i].getAttribute("value");
       showSlide(sectionNum);
-      console.log(i, ' ', sectionNum);
    }, false);
 }
 
-function showSlide(number) {
+function showSlide(sectionNum) {
    for (let key in linkList) {
-      console.log(key);
-      console.log(key-1);
       sectionsList[key - 1].style.display = "none";
-      if (number === key) {
+      buttonsList[key - 1].classList.remove("active");
+      if (sectionNum === Number(key)) {
          sectionsList[key - 1].style.display = "flex";
+         buttonsList[key - 1].classList.add("active");
       };
    }
+   // console.log(sectionNum, ' ', sectionsList[sectionNum - 1].style.display);
 }
 
-console.log(buttonsList[2].getAttribute("value"));
-console.log(sectionsList);
+let timer = setInterval(function () {
+   sectionNum++;
+   if (sectionNum > sectionsList.length) {
+      sectionNum = 1;
+   }
+   // console.log(sectionNum);
+   showSlide(sectionNum);
+
+}, 10000);
+
+//console.log(buttonsList[2].getAttribute("value"));
+//console.log(sectionsList);
