@@ -65,12 +65,23 @@ namespace HelloWorld
 
 ## 📚 Education
 
+<<<<<<< HEAD
 - 2000-2004 BSTU - _mechanical engineering faculty_
 - 2004-2005 BarSU - _economics & management_
 - 2006-2007 Dom Polski - _polish language courses_
 - 2012-2015 BSUIR - _computer science & programming technologies_
 - 2021 - SEO-shaolin courses - _SEO for USA companies_
 - 2022 - RS-School - JavaScript course
+=======
+## 📚     Education
+
+* 2000-2004 BSTU - _mechanical engineering faculty_
+* 2004-2005 BarSU - _economics & management_
+* 2006-2007 Dom Polski - _polish language courses_
+* 2012-2015 BSUIR - _computer science & programming technologies_
+* 2021 - SEO-shaolin courses - _SEO for USA companies_
+* 2022 - RS-School - JavaScript course
+>>>>>>> 5cf74e1... fix: update contacts info
 
 &nbsp;
 
