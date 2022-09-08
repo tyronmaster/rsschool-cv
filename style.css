@@ -252,7 +252,7 @@ body {
    clip: rect(23px, 103px, 103px, 0px);
 }
 .javascript::before {
-   clip: rect(68px, 103px, 103px, 0px);
+   clip: rect(23px, 103px, 103px, 0px);
 }
 .delphi::before,
 .csharp::before {
