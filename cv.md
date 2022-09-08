@@ -7,15 +7,15 @@
 
 ![email](assets/img/mail-48.png)     [degonski.art@gmail.com](mailto:degonski.art@gmail.com)\
 ![github](assets/img/github-48.png)     [tyronmaster](https://github.com/tyronmaster)\
-![phone](assets/img/telegram-48.png)     [+375299499201](tel:+375299499201)
+![phone](assets/img/telegram-48.png)     [+48451603288](tel:+48451603288)
 
 
 &nbsp;
 
 ## 🎥     About
    Well, for the last 15 years I've made an advertising and promotion companies for the biggest furiture (and other items for home) retailer in Belarus. During this period company grows from 5 own stores to retail network with more than 250 stores and became a leader of non-food retailers. Plan of sales increases monthly and sellers performed it with my department help.\
-   In my work I'll always try to stay correct and respectfully goes with colleagues, explain difficult moments to employees and try to find solving together.\
-   For now I'd like to increase my knowledges in the new sphere of my interests - programming. I'd like to study JS to use it in real projects. Seems to me, it helps to make something usefull for the people. And it'll be interesting for me to combine my "advertising" knowledges with web-technologies. \
+   In my work I always try to stay correct and respectfully goes with colleagues, explain difficult moments to employees and try to find solving together.\
+   For now I'd like to increase my knowledges in the new sphere of my interests - programming. I'd like to study JS to use it in real projects. Seems to me, it helps to make something usefull for the people. And it is interesting for me to combine my "advertising" knowledges with web-technologies. \
    So, let's keep moving!
 
 &nbsp;
@@ -69,6 +69,7 @@ namespace HelloWorld
 * 2006-2007 Dom Polski - _polish language courses_
 * 2012-2015 BSUIR - _computer science & programming technologies_
 * 2021 - SEO-shaolin courses - _SEO for USA companies_
+* 2022 - RS-School - JavaScript course
 
 &nbsp;
 
