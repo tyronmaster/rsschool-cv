@@ -19,6 +19,7 @@ Well, for the last 15 years I've made an advertising and promotion companies for
  For now I'd like to increase my knowledges in the new sphere of my interests - programming. I'd like to study JS to use it in real projects. Seems to me, it helps to make something usefull for the people. And it is interesting for me to combine my "advertising" knowledges with web-technologies. \
  So, let's keep moving!
 
+
 &nbsp;
 
 ## 🧰 Skills
