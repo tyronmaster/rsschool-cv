@@ -17,7 +17,6 @@ for (let i = 0; i < buttonsList.length; i++) {
    buttonsList[i].addEventListener("click", () => {
       sectionNum = Number(buttonsList[i].getAttribute("accesskey"));
       showSlide(sectionNum);
-      // console.log(buttonsList[i].getAttribute("accesskey"));
    }, false);
 }
 
@@ -30,18 +29,12 @@ function showSlide(sectionNum) {
          buttonsList[key - 1].classList.add("active");
       };
    }
-   // console.log(sectionNum, ' ', sectionsList[sectionNum - 1].style.display);
 }
 
-let timer = setInterval(function () {
-   sectionNum++;
-   if (sectionNum > sectionsList.length) {
-      sectionNum = 1;
-   }
-   // console.log(sectionNum);
-   showSlide(sectionNum);
-
-}, 10000);
-
-//console.log(buttonsList[2].getAttribute("value"));
-//console.log(sectionsList);
+// let timer = setInterval(function () {
+//    sectionNum++;
+//    if (sectionNum > sectionsList.length) {
+//       sectionNum = 1;
+//    }
+//    showSlide(sectionNum);
+// }, 30000);
