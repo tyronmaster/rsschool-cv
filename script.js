@@ -1,4 +1,4 @@
-const linkList = {
+const LINK_LIST = {
    1: "contacts",
    2: "about",
    3: "skills",
@@ -7,6 +7,7 @@ const linkList = {
    6: "education",
    7: "job"
 }
+const DELAY = 20000;
 
 let sectionNum = 1;
 
@@ -17,12 +18,19 @@ for (let i = 0; i < buttonsList.length; i++) {
    buttonsList[i].addEventListener("click", () => {
       sectionNum = Number(buttonsList[i].getAttribute("accesskey"));
       showSlide(sectionNum);
-      // console.log(buttonsList[i].getAttribute("accesskey"));
+      clearInterval(timer);
+      timer = setInterval(function () {
+         sectionNum++;
+         if (sectionNum > sectionsList.length) {
+            sectionNum = 1;
+         }
+         showSlide(sectionNum);
+      }, DELAY);
    }, false);
 }
 
 function showSlide(sectionNum) {
-   for (let key in linkList) {
+   for (let key in LINK_LIST) {
       sectionsList[key - 1].style.display = "none";
       buttonsList[key - 1].classList.remove("active");
       if (sectionNum === Number(key)) {
@@ -30,7 +38,6 @@ function showSlide(sectionNum) {
          buttonsList[key - 1].classList.add("active");
       };
    }
-   // console.log(sectionNum, ' ', sectionsList[sectionNum - 1].style.display);
 }
 
 let timer = setInterval(function () {
@@ -38,10 +45,7 @@ let timer = setInterval(function () {
    if (sectionNum > sectionsList.length) {
       sectionNum = 1;
    }
-   // console.log(sectionNum);
    showSlide(sectionNum);
+}, DELAY);
 
-}, 10000);
 
-//console.log(buttonsList[2].getAttribute("value"));
-//console.log(sectionsList);

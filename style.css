@@ -60,13 +60,16 @@ body {
    background: #38383a;
 }
 .wrapper {
-   min-height: 100vh;
-   overflow: hidden;
+   height: 100%;
+   /* overflow: auto; */
 }
 .container {
    max-width: 1030px;
+   min-height: 100vh;
    margin: 0 auto;
    padding: 0 15px;
+   display: flex;
+   flex-direction: column;
 }
 
 .section__title {
@@ -93,7 +96,7 @@ body {
 
 /* HEADER BLOCK STARTS =====================================*/
 .header {
-   min-height: 10vh;
+   /* height: 100px; */
 }
 .nav__list {
    display: flex;
@@ -101,7 +104,7 @@ body {
    flex-wrap: wrap;
 }
 .nav__item {
-   margin: 15px;
+   margin: 20px 25px;
    position: relative;
 }
 
@@ -145,19 +148,26 @@ body {
 
 /* MAIN BLOCK STARTS ==============================*/
 .main {
-   min-height: 80vh;
+   /* min-height: 80vh; */
    text-align: center;
    display: flex;
    justify-content: center;
    align-items: center;
+
+   flex: 1 auto;
+}
+
+.slide{
+   width: 100%;
+   align-items: flex-start;
 }
 
 /* contacts starts +++++++++++++++++++++++*/
 .contacts {
    display: flex;
    flex-direction: column;
-   justify-content: end;
-   align-items: flex-end;
+   justify-content: center;
+   align-items: center;
 
    /*display: none;*/
 }
@@ -362,7 +372,7 @@ pre {
    align-items: flex-start;
    flex-wrap: wrap;
    text-align: left;
-   max-width: 800px;
+   max-width: 550px;
 
    display: none;
 }
@@ -498,7 +508,7 @@ pre {
 
 /* FOOTER BLOCK STARTS ====================================*/
 .footer {
-   min-height: 10vh;
+   /* min-height: 10vh; */
    display: flex;
    justify-content: space-around;
    align-items: center;
